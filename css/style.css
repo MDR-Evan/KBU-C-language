@@ -1,0 +1,225 @@
+*{margin:0;}
+
+*{
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color:white;
+  text-decoration:none;
+}
+/***************************************************************************************************/
+/*********************[header]*******************************/
+header {
+  position:relative;
+  width:100%;
+  height:300px;
+  background-color:#4D4D4D;
+}
+
+/*********************[logo]*******************************/
+#logo {
+  position:relative;
+}
+
+#logo > p {
+  color:white;
+}
+
+#top-left {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  font-size:50px;
+  font-style:initial;
+  color:white;
+}
+
+/*********************[top menu]*******************************/
+#top-right {
+  position: absolute;
+  font-size:25px;
+  top:5px;
+  right:12px;
+  font-style:initial;
+  color:white;
+}
+
+/*********************[mid menu]*******************************/
+#middle_menu{
+  position: relative;
+  color: white;
+  font-size: 30px;
+  top:150px;
+  left:35%
+}
+ 
+#middle_menu > li {
+  float:left;
+  list-style:none;
+}
+
+#middle_menu > li > a {
+  font-size:30;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1;
+  padding : 12px 36px;
+}
+ 
+#middle_menu > li:hover #data_list {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+
+#data_list {
+  position: absolute;
+  background-color: #4D4D4D;
+  opacity: 0;
+  visibility: hidden;
+  list-style:none;
+}
+ 
+#data_list > li {
+  padding: 7px 7px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+ 
+#data_list > li > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/***************************************************************************************************/
+/*********************[main]*******************************/
+#section_index {
+  position:relative;
+}
+
+.introduce {
+  color:black;
+  font-size:30px;
+  text-align:center;
+}
+.introduce > h6 {
+  text-align:right;
+}
+/*********************[sogae]*******************************/
+#section_sogae {
+  width: 100%;
+}
+  
+.kjy_data {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  column-gap: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.kjy_data_img {
+  text-align: center;
+  height: 709px;
+  width: 551px;
+  border: 1px solid black;
+}
+
+.kjy_data_box {
+  color: black;
+  height: 709px;
+  width: 551px;
+  text-align: left;
+  padding-top:10%;
+  padding-left:5%;
+  background-color: #4d4d4d;
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+.kjy_data_box > p {
+    
+}
+/*********************[munui]*******************************/
+#section_munui {
+  width: 100%;
+}
+
+.munui {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  column-gap: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.munui_img {
+  text-align: center;
+  border: 1px solid black;
+  height: 709px;
+  width: 551px;
+}
+
+.kjy_data_box {
+  color: black;
+  height: 709px;
+  width: 551px;
+  text-align: left;
+  padding-top:10%;
+  padding-left:5%;
+  background-color: #bdbdbd;
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+.kjy_data_box > p {
+  font-size: 24px;
+}
+
+.kjy_data_box > a {
+  color:black;  
+}
+
+/***************************************************************************************************/
+/*********************[footer]*******************************/
+footer {
+  position:relative;
+  width:100%;
+  height:150px;
+  background-color:#4D4D4D;
+}
+
+#copyright {
+  text-align:center;
+  color:white;  
+}
+    
+#user_data {
+  position:absolute;
+  right:12px;
+  color:white;
+}
+
+
+
+
+
+/****************************************************************************************************************
+<link rel="stylesheet" href="./include/style.css">
+
+
+type :  
+id : #
+class : .
+
+사용용도
+id : 큰 틀
+class : id 내부 채움
+
+CSS 속성의 우선순위
+인라인 방식 > id 서너택자 > class 선택자 > type 선택자
+******************************************************************************************************************/
