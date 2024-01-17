@@ -1,0 +1,21 @@
+printf( ) : 결과를 출력하기 위해 사용하는 함수, 괄호 안의 내용을 모니터에 출력하라는 의미
+%d : 정수를 출력하기 위해 필요함(변수 지정자)
+\n : 다음 줄로 넘어가라는 뜻
+
+%d : decimal
+%o : octal
+%c : character
+
+char : (character) 문자 ( 1 byte = 8bit)
+int : (integer) 정수 (4 byte = 32bit)
+float : (floating point) 실수
+string : 문자열
+
+bit = binary digit
+binary = 2진법
+digit = 자릿수
+
+N진수 = 자릿수에 N가지의 수가 들어가는 것
+
+16가지 = 4bit
+(경우의수)8가지 = 3bit
