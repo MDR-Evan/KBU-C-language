@@ -1,1 +1,5 @@
-# HwaMyeon-GuHyun-Test
+﻿# KBU IoT설계
+
+학기 : 1-1  
+일시 : 화요일 09:00 ~ 11:50 AM  
+담당교수 : 정환익
